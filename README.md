@@ -357,7 +357,7 @@ A few bindings have been  written for other use cases which we find useful:
 * `text(StringBuilder)` - binds a string builder to the edit text, so when you
     change its contents - the edit text is changed, and if you type something
     manually - the string builder gets modified. So far it's the only two-way
-    data binding, becayse TextWatcher is a complicated beast.
+    data binding, because TextWatcher is a complicated beast.
 * `onItemSelected(lambda)` - accepts a functional interface to handle a `Spinner`
     events. `onNothingSelected()` method is omitted, because it's rarely used anyway.
 
